@@ -1,0 +1,40 @@
+.win {
+    border-radius: 20px;
+    cursor: pointer;
+    border: lightskyblue solid 2px;
+    background-color: rgb(96, 170, 73);
+    width: 100%;
+}
+
+.lose {
+    border-radius: 20px;
+    cursor: pointer;
+    border: lightskyblue solid 2px;
+    background-color: rgb(248, 81, 81);
+    width: 100%;
+}
+
+.draw {
+    border-radius: 20px;
+    cursor: pointer;
+    border: lightskyblue solid 2px;
+    width: 100%;
+}
+
+.date {
+    padding-top:10px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline lightskyblue solid 2px;
+}
+
+table {
+    border: none;
+    border-spacing: 50px 0px;
+    font-weight: 600;
+}
+
+td {
+    margin: 30px;
+    border-spacing: 50px;
+}

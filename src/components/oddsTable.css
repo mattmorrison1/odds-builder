@@ -1,0 +1,56 @@
+.oddsTab {
+    max-width: 600px;
+    border: none;
+    font-weight: 600;
+}
+
+.returnTab {
+    max-width: 600px;
+    border: none;
+    font-weight: 600;
+    border-top: lightskyblue solid 2px;
+}
+
+td {
+    margin: 30px;
+    border-spacing: 50px;
+}
+
+.stake {
+    width: 110px;
+    height: 25px; 
+    border-radius: 15px;
+    border: lightskyblue solid 2px;
+    text-align: right;
+    background-color: #999;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+.clear {
+    width: 110px;
+    height: 25px; 
+    border-radius: 15px;
+    border: lightskyblue solid 2px;
+    background-color: #999;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.stake::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:white;
+    opacity: 1; /* Firefox */
+  }
+  
+.stake:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:white;
+  }
+  
+.stake::-ms-input-placeholder { /* Microsoft Edge */
+    color:white;
+  }
