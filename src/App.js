@@ -61,25 +61,31 @@ class App extends Component {
     }
   }
 
+  // add match to the builder
+
   addToOdds = (team, odds, matchName) => {
     const newOdds = this.state.oddsBuilder;
     this.setState({ oddsBuilder: [...newOdds, { team, odds, matchName }] });
     this.addToTotal(odds);
   };
 
+  //get new output total for the builder
+
   addToTotal = (number) => {
     const newTotal = number * this.state.total;
     this.setState({ total: newTotal });
   };
 
+  //clear all matches from odds builder
+
   clearOdds = () => {
     this.setState({ oddsBuilder: [], total: 1 });
   };
 
+  //remove match from the odds builder
+
   removeMatch = (removed) => {
-    console.log('remove match ran')
     const revised = this.state.oddsBuilder.filter(element => element.matchName !== removed)
-    console.log(revised)
     this.setState({ oddsBuilder: revised})
     console.log(this.state.oddsBuilder)
   }

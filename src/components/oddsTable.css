@@ -39,7 +39,7 @@ td {
     color:white;
     font-weight: bold;
     font-size: 15px;
-    
+    cursor: pointer;
 }
 
 .stake::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
